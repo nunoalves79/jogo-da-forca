@@ -17,3 +17,23 @@
   - Número máximo de erros: 6
   - Inputs: letras de A a Z
   - Letras: o jogo deve ser case insensitive, para permitir o tratamento de maiúsculas e minúsculas
+
+# Requisitos Funcionais (RF):
+RF01: O programa deve selecionar aleatoriamente uma palavra de uma lista pré-definida.
+
+RF02: O programa deve exibir a palavra secreta (ex: _ _ _ _), revelando as letras conforme o utilizador acerta.
+
+RF03: O programa deve validar se o input do utilizador é apenas uma letra (e não números ou múltiplos caracteres).
+
+RF04: O programa deve descontar uma tentativa apenas quando a letra escolhida não existir na palavra.
+
+RF05: O programa deve manter um histórico das letras já tentadas para evitar repetições.
+
+RF06: O programa deve exibir uma mensagem clara de "Vitória" ou "Derrota" ao finalizar o jogo.
+
+# Requisitos Não Funcionais (RNF):
+RNF01 (Usabilidade): O jogo deve ser intuitivo, correndo inteiramente no terminal.
+
+RNF02 (Portabilidade): O código deve ser compatível com qualquer sistema que tenha o Python instalado.
+
+RNF03 (Robustez): O sistema deve ser insensível a maiúsculas e minúsculas (tratando 'A' e 'a' como a mesma letra).
