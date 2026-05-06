@@ -37,3 +37,6 @@ RNF01 (Usabilidade): O jogo deve ser intuitivo, correndo inteiramente no termina
 RNF02 (Portabilidade): O código deve ser compatível com qualquer sistema que tenha o Python instalado.
 
 RNF03 (Robustez): O sistema deve ser insensível a maiúsculas e minúsculas (tratando 'A' e 'a' como a mesma letra).
+
+## Fluxograma da Lógica do Jogo
+  ![Fluxograma do Jogo](Fluxograma_Jogo-da-Forca.png)
