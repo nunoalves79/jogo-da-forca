@@ -2,7 +2,9 @@ import random
 import os
 
 # 1. Configurações gerais e variáveis
-lista_palavras = ['Portugal']
+lista_palavras = ['Bulgaria', 'Chequia', 'Chipre', 'Croacia', 'Dinamarca', 'Eslovaquia', 'Eslovenia', 'Espanha',
+'Estonia', 'Finlandia', 'Franca', 'Grecia', 'Hungria', 'Irlanda', 'Italia', 'Letonia', 'Lituania', 'Luxemburgo',
+'Malta', 'Paises Baixos', 'Polonia', 'Portugal', 'Romenia', 'Suecia']
 palavra_secreta = random.choice(lista_palavras).upper()
 letras_descobertas = ['_' for _ in palavra_secreta]
 tentativas = 6
