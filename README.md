@@ -40,3 +40,26 @@ RNF03 (Robustez): O sistema deve ser insensível a maiúsculas e minúsculas (tr
 
 ## Fluxograma da Lógica do Jogo
   ![Fluxograma do Jogo](Fluxograma_Jogo-da-Forca.png)
+
+# Instruções para utilização do jogo:
+1. Certifica-te que tens instalado o Python 3 no teu terminal;
+2. O Python 3 é essencial para correr o jogo, por terem sido utilizadas duas bibliotecas aí existentes: random e os;
+3. Faz download do ficheiro (forca.py);
+4. No teu terminal, navega até à pasta (cmd, VS Code, etc.);
+5. Executa o ficheiro.
+
+# Exemplo de utilização:
+1. Ao abrires o jogo, será apresentado o quadro onde estará a palavra secreta que terás que adivinhar;
+
+<img width="560" height="238" alt="image" src="https://github.com/user-attachments/assets/2324197d-27b0-48f4-b77c-d0360f3d221f" />
+   
+2. No teu terminal, deve digitar uma letra do alfabeto e de seguida clicar em ENTER;  
+3. O jogo irá devolver o resultado final dessa ação, validando se foi o palpite válido ou não;
+   
+   <img width="565" height="231" alt="image" src="https://github.com/user-attachments/assets/9eb1d4a0-0a18-4602-81b7-1f6405ab3ea3" />
+
+4. O jogo continuará até atingires o limite máximo de palpites errados (6) ou descobrires a palavra secreta.
+   
+   <img width="568" height="221" alt="image" src="https://github.com/user-attachments/assets/2a014fb5-99af-4e4b-bcae-53b3008a0fe9" />
+
+5. Bom jogo!
